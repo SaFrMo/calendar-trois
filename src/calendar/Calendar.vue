@@ -93,7 +93,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref, watch } from 'vue'
-import OrbitControlsWrapper from '../OrbitControlsWrapper.vue'
+import OrbitControlsWrapper from '../utils/OrbitControlsWrapper.vue'
 import { days, getDayPositions, months } from './utils'
 import { FontLoader, Mesh, MeshBasicMaterial, Vector2, Vector3 } from 'three'
 import DayMesh from './components/DayMesh.vue'

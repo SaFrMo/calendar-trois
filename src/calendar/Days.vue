@@ -20,7 +20,7 @@ import { defineComponent } from 'vue'
 // import DreamscaperComponent from '../dreamscaper/DreamscaperComponent.vue'
 // import EventComponent from '../events/Events/EventComponent.vue'
 // import HierarchyComponent from '../hierarchy/HierarchyComponent.vue'
-// import LiquidBoxComponent from '../liquid-box/LiquidBoxComponent.vue'
+import LiquidBoxComponent from '../liquid-box/LiquidBoxComponent.vue'
 // import PhysicsComponent from '../physics/PhysicsComponent.vue'
 // import SumComponent from '../instance-sum/SumComponent.vue'
 // import SvgComponent from '../svg/SvgComponent.vue'
@@ -37,7 +37,7 @@ export default defineComponent({
         // DreamscaperComponent,
         // EventComponent,
         // HierarchyComponent,
-        // LiquidBoxComponent,
+        LiquidBoxComponent,
         // PhysicsComponent,
         // SumComponent,
         // SvgComponent,
@@ -54,9 +54,9 @@ export default defineComponent({
     setup() {
         return {
             dictionary: {
-                // '2021-08-17': {
-                //     is: 'LiquidBoxComponent',
-                // },
+                '2021-08-17': {
+                    is: 'LiquidBoxComponent',
+                },
                 // '2021-08-16': {
                 //     is: 'TextChaseComponent',
                 // },

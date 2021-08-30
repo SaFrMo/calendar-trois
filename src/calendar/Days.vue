@@ -16,15 +16,14 @@ import { defineComponent } from 'vue'
 // import AsteriskComponent from '../asterisk/AsteriskComponent.vue'
 // import Boxfield from '../boxfield/BoxfieldComponent.vue'
 // import CalendarExample from './components/CalendarExample.vue'
-// import DioramaComponent from '../diorama/components/DioramaComponent.vue'
-// import DreamscaperComponent from '../dreamscaper/DreamscaperComponent.vue'
+import DioramaComponent from '../diorama/components/DioramaComponent.vue'
+import DreamscaperComponent from '../dreamscaper/DreamscaperComponent.vue'
 // import EventComponent from '../events/Events/EventComponent.vue'
 // import HierarchyComponent from '../hierarchy/HierarchyComponent.vue'
 import LiquidBoxComponent from '../liquid-box/LiquidBoxComponent.vue'
-// import PhysicsComponent from '../physics/PhysicsComponent.vue'
+import PhysicsComponent from '../physics/PhysicsComponent.vue'
 // import SumComponent from '../instance-sum/SumComponent.vue'
 // import SvgComponent from '../svg/SvgComponent.vue'
-// import TextChaseComponent from '../text-chase/TextChaseComponent.vue'
 // import Table from '../table/TableComponent.vue'
 // import WiresComponent from '../instance-wires/WiresComponent.vue'
 
@@ -33,16 +32,15 @@ export default defineComponent({
         // AsteriskComponent,
         // Boxfield,
         // CalendarExample,
-        // DioramaComponent,
-        // DreamscaperComponent,
+        DioramaComponent,
+        DreamscaperComponent,
         // EventComponent,
         // HierarchyComponent,
         LiquidBoxComponent,
-        // PhysicsComponent,
+        PhysicsComponent,
         // SumComponent,
         // SvgComponent,
         // Table,
-        // TextChaseComponent,
         // WiresComponent,
     },
     props: {
@@ -57,16 +55,13 @@ export default defineComponent({
                 '2021-08-17': {
                     is: 'LiquidBoxComponent',
                 },
-                // '2021-08-16': {
-                //     is: 'TextChaseComponent',
-                // },
-                // '2021-08-08': {
-                //     is: 'DreamscaperComponent',
-                //     bind: {
-                //         'rotation-x': Math.PI * 0.25,
-                //         'position-z': 1,
-                //     },
-                // },
+                '2021-08-08': {
+                    is: 'DreamscaperComponent',
+                    bind: {
+                        'rotation-x': Math.PI * 0.25,
+                        'position-z': 1,
+                    },
+                },
                 // '2021-08-06': {
                 //     is: 'SvgComponent',
                 //     bind: {
@@ -82,26 +77,26 @@ export default defineComponent({
                 //         scale: 2,
                 //     },
                 // },
-                // '2021-08-04': {
-                //     is: 'PhysicsComponent',
-                //     bind: {
-                //         'position-y': 0.25,
-                //         'position-z': 0.2,
-                //         rotation: [Math.PI * 0.15, Math.PI * 0.25, 0],
-                //     },
-                // },
+                '2021-08-04': {
+                    is: 'PhysicsComponent',
+                    bind: {
+                        'position-y': 0.25,
+                        'position-z': 0.2,
+                        rotation: [Math.PI * 0.15, Math.PI * 0.25, 0],
+                    },
+                },
                 // '2021-08-02': {
                 //     is: 'HierarchyComponent',
                 //     bind: {
                 //         'position-z': 0.2,
                 //     },
                 // },
-                // '2021-08-01': {
-                //     is: 'DioramaComponent',
-                //     bind: {
-                //         'position-z': 0.2,
-                //     },
-                // },
+                '2021-08-01': {
+                    is: 'DioramaComponent',
+                    bind: {
+                        'position-z': 0.2,
+                    },
+                },
                 // '2021-07-30': {
                 //     is: 'CalendarExample',
                 //     bind: {
